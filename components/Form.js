@@ -129,7 +129,7 @@ class Form extends React.Component {
         <Text style={styles.label}>Actual BMD</Text>
         <TextInput
           style={styles.input}
-          placeholder="BMD"
+          placeholder="g/cm²"
           autoCapitalize="none"
           onChangeText={bmdMeasure => this.setState({ bmdMeasure })}
           value={this.state.bmdMeasure}
